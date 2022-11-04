@@ -1,0 +1,440 @@
+*{          /*header*/
+    margin: 0;
+    padding: 0;
+}
+.navsite{
+    background-color: #d6cab2;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+}
+/* .listes{
+    
+
+} */
+.ullist{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+
+    list-style: none;
+}
+                 /*body*/
+body{
+    background-color: black;
+}
+                 /*footer*/
+
+.footside{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    background-color: #d6cab2;
+    text-align: center;
+    height: 35%;
+    
+}
+.footside a{
+color: rgb(79, 73, 73);
+}
+.linkcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/*VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO */
+#myVideo {
+
+    right: 0;
+    bottom: 0;
+    max-width: 100%; 
+    max-height: 100%;
+  }
+
+
+  /* Carousel */
+
+  h1 { text-align: center; }
+
+#carousel {
+    display: flex;
+    overflow-x: auto; 
+  
+    -ms-overflow-style: none;
+    scrollbar-width: auto;
+    /* height: 55vh; */
+   
+}
+
+#carousel::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
+  -webkit-overflow-scrolling: touch; /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
+}
+
+.item {
+  min-width: 443px;
+  min-height: 20vh;
+  margin: 15px;
+  font-size: 5em;
+  text-align: center;
+  /* line-height: 300px; */
+  /* background-color: #FFF9EF; */
+  border-radius: 7px;
+}
+
+
+
+/* test */
+img{
+    height: 385px;
+    width: 450px;
+    border-radius: 1%;
+}
+
+h1,h2,p{
+   color: #B69121; 
+}
+
+.vidconstru{
+    background-color: rgba(0, 0, 0, 0.485);
+    height: 15%;
+    display: flex;
+    
+    padding: 24px 32px;
+    align-items: left
+}
+.tex {
+    padding: 3%;
+}
+.tex p{
+    
+    color: #f7f7f7 ;
+    font-size: large;
+    
+    text-align: justify;
+
+}
+.cont{
+    display: flex;
+    align-items: stretch;
+    display: flex;
+    
+
+
+
+
+}
+.titelb{
+    color: aliceblue;
+    padding: 24px 32px;
+    height: 15%;
+    padding-top: 3%;
+
+}
+h1.samo {
+    font-size: 2em;
+    text-shadow: 1px 1px #000;
+}
+.otp h1{
+    color: aliceblue;
+}
+
+.cont2{
+    display: flex;
+    align-items: stretch;
+    display: flex;
+}
+.sabo{
+   
+    margin: 15px;
+    font-size: 5em;
+    
+    
+    border-radius: 7px;
+    size: 1344px 587px;
+}
+.vidrepa{
+    background-color: #000;
+    height: 15%;
+    display: flex;
+    padding: 24px 32px;
+    align-items: right;
+}
+.item{
+    background-color: #000;
+    
+ 
+    
+    background-size: cover;
+    width: 100%;
+}
+.toto{
+    width: 93%;
+    height: 535px;
+    padding: 3%;
+}
+/*formulaire*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000 !important;
+  }
+  
+  #contact {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+  
+  .form-control, 
+  textarea {
+    max-width: 400px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+  }
+  
+  .alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+  }
+  
+  .send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+  }
+  
+  /* Begin Right Contact Page */
+  .direct-contact-container {
+    max-width: 400px;
+  }
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: #aaa;
+  }
+  
+  .contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+  }
+  
+  .place {
+    margin-left: 62px;
+  }
+  
+  .phone {
+    margin-left: 56px;
+  }
+  
+  .gmail {
+    margin-left: 53px;
+  }
+  
+  .contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Social Media Icons */
+  .social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .social-media-list li a {
+    color: #fff;
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+    background-color: #fff; 
+  }
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+    color: #000;
+  }
+  
+  .copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  hr {
+    border-color: rgba(255,255,255,.6);
+  }
+  
+  /* Begin Media Queries*/
+  @media screen and (max-width: 850px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .direct-contact-container, .form-horizontal {
+      margin: 0 auto;
+    }  
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 300px;
+    }    
+    .social-media-list li {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+    }
+    .social-media-list li:after {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 569px) {
+  
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      margin: 0 auto;
+    }  
+    .form-control, textarea {
+      
+      margin: 0 auto;
+    }
+   
+    
+    .name, .email, textarea {
+      width: 280px;
+    } 
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 280px;
+    }  
+    .social-media-list {
+      left: 0;
+    }
+    .social-media-list li {
+      height: 55px;
+      width: 55px;
+      line-height: 55px;
+      font-size: 2rem;
+    }
+    .social-media-list li:after {
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 410px) {
+    .send-button {
+      width: 99%;
+    }
+  }
